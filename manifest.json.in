@@ -1,0 +1,15 @@
+{
+    "name": "example-rgba.yourname",
+    "description": "example-RGBA",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Rendering RGBA",
+    "hooks": {
+        "example-RGBA": {
+            "apparmor": "example-RGBA.apparmor",
+            "desktop":  "example-RGBA.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Your FullName <email@domain.org>",
+    "framework" : "ubuntu-sdk-16.04"
+}
